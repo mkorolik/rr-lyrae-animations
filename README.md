@@ -1,6 +1,12 @@
 # rr-lyrae-animations
 Various visualizations for RR Lyrae stars (like the opacity bump as a driving mechanism, observations of the Blazhko effect, etc.)
 
+
+**kappa_mechanism.py**
+- uses [MESA-RSP](https://ui.adsabs.harvard.edu/abs/2019ApJS..243...10P/abstract) LOGS to show work integral + opacity in star during a pulsation cycle
+- creates gif of stellar envelope structure (ionization zone, convective regions, work + opacity) during a pulsation, matched with the position in the lightcurve and position in the HR diagram
+
+
 **blazhko_effect.py**
 - given: i) dataset (e.g., times and magnitudes) ii) fundamental pulsation period, iii) blazhko period (approximately):
 - creates gif of folded lightcurve showing the blazhko modulations from phase to phase
