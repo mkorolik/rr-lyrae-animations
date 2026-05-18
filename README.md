@@ -8,7 +8,7 @@ Various visualizations for RR Lyrae stars (like the opacity bump as a driving me
 
 
 **blazhko_2d3d.py**
-- given: i) lightcurve, manually cropped to a single lightcurve phase:
+- given: i) lightcurve, manually cropped to a single Blazhko phase:
 - creates gif of folded lightcurve showing the blazhko modulations from phase to phase, as well as 3d gif of blazhko modulations, highlighting the folded lightcurve in each step of the 2d gif; side-by-side
 
 
